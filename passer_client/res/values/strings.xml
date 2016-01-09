@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">client</string>
+    <string name="action_settings">Settings</string>
+    <string name="help_urgent">紧急报警</string>
+    <string name="help_normal">普通报警</string>
+    <string name="crime_rob">抢劫</string>
+    <string name="crime_accident">车祸</string>
+    <string name="crime_steal">盗窃</string>
+    <string name="crime_fire">纵火</string>
+    <string name="crime_bangjia">绑架</string>
+    <string name="crime_others">其他</string>
+    <string name="others_submit">提交</string>
+    <string name="END">处理完毕</string>
+    <string name="voice_record">语音</string>
+    <string name="camera">照相</string>
+    <string name="client_mainactivity">client_mainactivity</string>
+    <string name="input">input</string>
+    <string name="start">开始</string>
+    <string name="end">结束（返回）</string>
+    <string name="phonecall">一键式电话报警</string>
+    
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/hello_police"
+        android:textSize="20sp" />
+
+     </TableRow>
+     
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                       
+        android:text="@string/your_gis" />
+     </TableRow>
+     
+        
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+          
+    <EditText
+        
+        android:id="@+id/show"  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:cursorVisible="false"
+        />
+
+     </TableRow>
+     
+     
+      
+     
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:textSize="13sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                       
+        android:text="@string/trying_to_get_gis" />
+     </TableRow>
+     
+    
+     <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+     </TableRow>
+
+     <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+     </TableRow>
+     
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/once_inform" />
+     </TableRow>
+
+     <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+     </TableRow>
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/ready" />
+
+     <Button
+         android:id="@+id/button4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/layer_out"/>
+
+</TableLayout>

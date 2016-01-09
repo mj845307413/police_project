@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/name_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/title"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_layout"
+        android:hint="@string/name" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/name_layout"
+        android:layout_below="@+id/et_name"
+        android:text="@string/please_minicode"
+        android:textSize="20sp" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/et_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_content"
+        android:ems="10"
+        android:hint="@string/minicode" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_button"
+        android:layout_alignBottom="@+id/et_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="64sp"
+        android:text="@string/exit" />
+
+    <Button
+        android:id="@+id/et_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/name_layout"
+        android:layout_below="@+id/et_content"
+        android:layout_marginTop="24sp"
+        android:text="@string/login" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_content"
+        android:text="@+string/rememberkeys" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="@string/have_been_helping"
+        android:textSize="25sp" />
+    
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="100sp"
+        android:text="@string/please_go_hurry"
+        android:textSize="25sp" />
+
+    <Button
+        
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="125sp"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guilding"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="105sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theWhole_thingOf_police" 
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_marginTop="35sp"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240sp"
+        android:text="@string/return1" 
+        android:textSize="25sp"/>
+
+</LinearLayout>

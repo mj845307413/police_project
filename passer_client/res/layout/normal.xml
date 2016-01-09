@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/crime_steal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_steal" />
+
+    <Button
+        android:id="@+id/crime_others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_others" />
+
+    <Button
+        android:id="@+id/crime_bangjia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_bangjia" />
+
+    <Button
+        android:id="@+id/crime_accident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_accident" />
+
+
+    <Button
+        android:id="@+id/crime_fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="@string/crime_fire" />
+
+    <Button
+        android:id="@+id/crime_rob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_rob" />
+
+    <Button
+        android:id="@+id/NextEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="80dip"
+        android:minWidth="100dp"
+        android:text="@string/END" />
+
+    <TextView
+        android:id="@+id/nmshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:singleLine="false" />
+</LinearLayout>
